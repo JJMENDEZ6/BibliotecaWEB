@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="BibliotecaWEB.Main.Index" %>
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -18,7 +17,7 @@
         <br />
         <div class="links-container">
             <a href="../Prestamos/Prestamos.aspx" class="link1">Prestamos</a>
-            <a href="" class="link2">Acerca de nosotros</a>
+            <a href="#" class="link2">Acerca de nosotros</a>
         </div>
     </form>
 </body>
