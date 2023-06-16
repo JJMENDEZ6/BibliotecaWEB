@@ -8,9 +8,10 @@
     <title></title>
 </head>
 <body>
+    <h1>Registro</h1>
     <form id="form1" runat="server">
         <div>
-            <h1>PRESTAMOS</h1>
+
         </div>
     </form>
 </body>

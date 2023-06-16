@@ -2,7 +2,10 @@
     margin: 8px auto;
     box-sizing: border-box;
 }
-body{
+body {
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
     background-color: aliceblue;
 }
 .title {
@@ -22,7 +25,7 @@ body{
     text-align: center;
     font-family: 'Victor Mono';
     font-size: 28px;
-    padding: 2px;
+    padding: 5px;
 }
 .link1 {
     color: black;
@@ -32,5 +35,5 @@ body{
     color: black;
     text-decoration: none;
     letter-spacing: -1px;
-    word-spacing: -7px;
+    word-spacing: -2px;
 }
