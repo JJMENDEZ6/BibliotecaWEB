@@ -2,3 +2,37 @@
     margin: 8px auto;
     box-sizing: border-box;
 }
+.title {
+    text-align: center;
+    font-family: 'Victor Mono';
+    font-size: 24px;
+}
+.formContainer {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 2px black;
+    height: 500px;
+    width: 500px;
+    font-family: 'Victor Mono';
+    font-size: 24px;
+}
+.boxContainer {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-top: 10px;
+}
+.textBoxForm {
+    margin: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+}
+.dropDownListForm {
+    margin: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+}
