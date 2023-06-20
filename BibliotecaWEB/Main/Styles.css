@@ -80,14 +80,16 @@ body {
     .header-content h1 {
         font-size: 75px;
         line-height: 80px;
-        color: #f9fafc;
+        color: aliceblue;
+        /*color: #f9fafc;*/
         text-transform: uppercase;
         margin-bottom: 35px;
     }
 
     .header-content p {
         font-size: 18px;
-        color: #c5c5c5;
+        color: azure;
+        /*color: #c5c5c5;*/
         padding: 0 250px;
         margin-bottom: 25px;
     }
