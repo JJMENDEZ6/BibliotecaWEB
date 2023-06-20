@@ -22,7 +22,6 @@ namespace BibliotecaWEB.Servidor
             dt = new DataTable();
             objconexionSQL.Connection.Open();
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
-            //da.SelectCommand.Parameters.AddWithValue("@ot_cliente", txtot.Text);
             da.Fill(dt);
             objconexionSQL.Connection.Close();
         }

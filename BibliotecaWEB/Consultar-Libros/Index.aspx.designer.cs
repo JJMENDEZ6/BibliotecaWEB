@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace BibliotecaWEB.Prestamos
+namespace BibliotecaWEB.Consultar_Libros
 {
 
 
-    public partial class Prestamos
+    public partial class Index
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace BibliotecaWEB.Prestamos
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lblNombreLibro.
+        /// Control txtISBN.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNombreLibro;
+        protected global::System.Web.UI.WebControls.TextBox txtISBN;
 
         /// <summary>
         /// Control txtNombre.
@@ -42,15 +42,6 @@ namespace BibliotecaWEB.Prestamos
         protected global::System.Web.UI.WebControls.TextBox txtNombre;
 
         /// <summary>
-        /// Control lblAutor.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAutor;
-
-        /// <summary>
         /// Control txtAutor.
         /// </summary>
         /// <remarks>
@@ -58,15 +49,6 @@ namespace BibliotecaWEB.Prestamos
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtAutor;
-
-        /// <summary>
-        /// Control lblEditorial.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEditorial;
 
         /// <summary>
         /// Control txtEditorial.
@@ -78,15 +60,6 @@ namespace BibliotecaWEB.Prestamos
         protected global::System.Web.UI.WebControls.TextBox txtEditorial;
 
         /// <summary>
-        /// Control lblFecha.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFecha;
-
-        /// <summary>
         /// Control txtFechaPublicacion.
         /// </summary>
         /// <remarks>
@@ -94,15 +67,6 @@ namespace BibliotecaWEB.Prestamos
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFechaPublicacion;
-
-        /// <summary>
-        /// Control lblEstado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEstado;
 
         /// <summary>
         /// Control cbx_estados.
@@ -114,15 +78,6 @@ namespace BibliotecaWEB.Prestamos
         protected global::System.Web.UI.WebControls.DropDownList cbx_estados;
 
         /// <summary>
-        /// Control lblCantidad.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCantidad;
-
-        /// <summary>
         /// Control txtCantidadLibros.
         /// </summary>
         /// <remarks>
@@ -130,5 +85,14 @@ namespace BibliotecaWEB.Prestamos
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCantidadLibros;
+
+        /// <summary>
+        /// Control btnRegistrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRegistrar;
     }
 }

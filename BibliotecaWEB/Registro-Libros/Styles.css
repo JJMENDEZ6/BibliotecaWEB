@@ -1,5 +1,4 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
-
 * {
     margin: 0;
     padding: 0;
@@ -7,26 +6,22 @@
     text-decoration: none;
     list-style: none;
 }
-
 body {
     font-family: "Poppins", sans-serif;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/01-biblioteca.jpg);
+    background-image: url(images/students.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
+}
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 10vh;
     display: flex;
     align-items: center;
 }
-
 .menu {
     position: absolute;
     top: 0;
@@ -36,30 +31,27 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
 .logo {
+    text-transform: uppercase;
     color: #fffdfc;
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 800;
 }
-
 .menu .navbar ul li {
     position: relative;
     float: left;
 }
-
     .menu .navbar ul li a {
-        font-size: 18px;
+        text-transform: uppercase;
+        font-size: 24px;
         padding: 20px;
         color: #fffdfc;
         display: block;
         font-weight: 600;
     }
-
         .menu .navbar ul li a:hover {
             color: #ce967b;
         }
-
 #menu {
     display: none;
 }
@@ -72,81 +64,66 @@ body {
     cursor: pointer;
     display: none;
 }
-
 .header-content {
     text-align: center;
 }
-
-    .header-content h1 {
-        font-size: 75px;
-        line-height: 80px;
-        color: #f9fafc;
-        text-transform: uppercase;
-        margin-bottom: 35px;
-    }
-
-    .header-content p {
-        font-size: 16px;
-        color: #c5c5c5;
-        padding: 0 250px;
-        margin-bottom: 25px;
-    }
-
-.generos {
-    padding: 100px 0;
-    background-color: #e1e2e6;
+.form-register {
+    width: 400px;
+    background-color: #24303c;
+    padding: 50px;
     position: relative;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
 }
-
-.generos-content {
+.form-register a {
+    position: relative;
     text-align: center;
 }
-
-    .generos-content h2 {
-        font-size: 55px;
-        line-height: 70px;
-        color: #323337;
-        text-transform: uppercase;
-        padding: 0 250px;
-        margin-bottom: 15px;
+.links {
+    font-size: 18px;
+    color: #fffdfc;
+    font-weight: 400;
+}
+.links:hover{
+    color: #1f53c5;
+}
+    .form-register h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        padding: 5px;
     }
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: white;
+}
 
-.txt-paragraph {
+.form-register .botons {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
     font-size: 16px;
-    color: #414247;
-    padding: 0 250px;
-    margin-bottom: 35px;
 }
-
-.generos-group {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+.botons:hover {
+    background-color: azure;
+    color: #24303c;
 }
-
-.genero-1 {
-    padding: 0 25px;
-}
-
-    .genero-1 img {
-        width: 200px;
-    }
-
-.generos-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.genero-1 h3 {
-    color: #323337;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
 .footer {
+    bottom: 0;
     padding: 100px 0;
-    background-color: #414247;
+    background-color: #24303c;
 }
 
 .footer-content {
@@ -155,24 +132,22 @@ body {
 }
 
 .link h3 {
-    font-size: 24px;
+    font-size: 32px;
     color: #f9fafc;
     margin-bottom: 15px;
 }
 
 .link a {
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
     color: #c5c5c5;
     display: block;
     margin-bottom: 15px;
 }
 
     .link a:hover {
-        font-size: 18px;
         color: white;
     }
-
 @media (max-width: 991px) {
     .menu {
         padding: 30px;
@@ -198,11 +173,9 @@ body {
     #menu:checked ~ .navbar {
         display: initial;
     }
-
     .header {
         min-height: 0vh;
     }
-
     .header-content {
         padding: 100px 30px;
     }
@@ -210,13 +183,11 @@ body {
         .header-content p {
             padding: 0;
         }
-
-    .footer {
-        padding: 30px;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
+  .footer {
+    padding: 30px;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
 }
