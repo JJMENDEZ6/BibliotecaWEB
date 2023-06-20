@@ -1,39 +1,222 @@
-﻿* {
-    margin: 8px auto;
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-body {
-    background: #8360c3;
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
-    background: linear-gradient(to right, #2ebf91, #8360c3);
-    background-color: aliceblue;
-}
-.title {
-    text-align: center;
-    word-wrap: anywhere;
-    font-family: 'Victor Mono';
-    font-size: 22px;
-    color: black;
+    text-decoration: none;
+    list-style: none;
 }
 
-.paragraph {
-    padding: 50px;
-    color: black;
+body {
+    font-family: "Poppins", sans-serif;
 }
-.links-container {
-    justify-items: center;
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/01-biblioteca.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+    .menu .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: #fffdfc;
+        display: block;
+        font-weight: 600;
+    }
+
+        .menu .navbar ul li a:hover {
+            color: #ce967b;
+        }
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
     text-align: center;
-    font-family: 'Victor Mono';
-    font-size: 28px;
-    padding: 5px;
 }
-.link1 {
-    color: black;
-    text-decoration: none;
+
+    .header-content h1 {
+        font-size: 75px;
+        line-height: 80px;
+        color: #f9fafc;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+
+    .header-content p {
+        font-size: 16px;
+        color: #c5c5c5;
+        padding: 0 250px;
+        margin-bottom: 25px;
+    }
+
+.generos {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
 }
-.link2 {
-    color: black;
-    text-decoration: none;
-    letter-spacing: -1px;
-    word-spacing: -2px;
+
+.generos-content {
+    text-align: center;
+}
+
+    .generos-content h2 {
+        font-size: 55px;
+        line-height: 70px;
+        color: #323337;
+        text-transform: uppercase;
+        padding: 0 250px;
+        margin-bottom: 15px;
+    }
+
+.txt-paragraph {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.generos-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.genero-1 {
+    padding: 0 25px;
+}
+
+    .genero-1 img {
+        width: 200px;
+    }
+
+.generos-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.genero-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #414247;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.link h3 {
+    font-size: 24px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    text-align: center;
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+    .link a:hover {
+        font-size: 18px;
+        color: white;
+    }
+
+@media (max-width: 991px) {
+    .menu {
+        padding: 30px;
+    }
+
+        .menu label {
+            display: initial;
+        }
+
+        .menu .navbar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #323337;
+            display: none;
+        }
+
+            .menu .navbar ul li {
+                width: 100%;
+            }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+        .header-content p {
+            padding: 0;
+        }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
 }
