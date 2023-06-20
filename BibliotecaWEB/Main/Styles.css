@@ -10,6 +10,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/01-biblioteca.jpg);
+    background-size: cover;
 }
 
 .container {
@@ -18,11 +20,9 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/01-biblioteca.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 70vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -39,7 +39,7 @@ body {
 
 .logo {
     color: #fffdfc;
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 800;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
     .menu .navbar ul li a {
-        font-size: 18px;
+        font-size: 24px;
         padding: 20px;
         color: #fffdfc;
         display: block;
@@ -86,7 +86,7 @@ body {
     }
 
     .header-content p {
-        font-size: 16px;
+        font-size: 18px;
         color: #c5c5c5;
         padding: 0 250px;
         margin-bottom: 25px;
@@ -145,8 +145,9 @@ body {
 }
 
 .footer {
-    padding: 100px 0;
-    background-color: #414247;
+    bottom: 0; 
+    padding: 70px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
 .footer-content {
@@ -155,14 +156,14 @@ body {
 }
 
 .link h3 {
-    font-size: 24px;
+    font-size: 20px;
     color: #f9fafc;
     margin-bottom: 15px;
 }
 
 .link a {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     color: #c5c5c5;
     display: block;
     margin-bottom: 15px;

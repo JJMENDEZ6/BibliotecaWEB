@@ -16,15 +16,15 @@
         </label>
         <nav class="navbar">
           <ul>
-            <li><a href="#">Registro de libros</a></li>
-            <li><a href="#">Registro de usuarios</a></li>
-            <li><a href="#">Prestamos</a></li>
+              <li><a href="../Main/Index.aspx">Inicio</a></li>
+            <li><a href="#">Consultar libros</a></li>
+            <li><a href="#">Editar Libros</a></li>
           </ul>
         </nav>
             </div>
         </header>
         <section class="form-register">
-            <h1>Registro de libros</h1>
+            <h1>REGISTRO DE LIBROS</h1>
             <asp:TextBox ID="txtNombre" runat="server" placeholder="El Retorno Del Rey" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls"></asp:TextBox>
              <asp:TextBox ID="txtEditorial" runat="server" placeholder="Universal" CssClass="controls"></asp:TextBox>
@@ -32,8 +32,6 @@
             <asp:DropDownList ID="cbx_estados" runat="server" CssClass="controls" ></asp:DropDownList>
             <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls"></asp:TextBox>
             <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" />
-            <%--<a href="../Consultar-Libros/Index.aspx" class="links">Consultar Libros</a>
-            <a href="#" class="links">Modificar Libros</a>--%>
         </section>
         <footer class="footer">
       <div class="footer-content container">
