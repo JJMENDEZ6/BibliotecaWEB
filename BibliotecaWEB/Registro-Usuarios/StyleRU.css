@@ -1,0 +1,218 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(image/students.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #fffdfc;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+    .menu .navbar ul li a {
+        text-transform: uppercase;
+        font-size: 24px;
+        padding: 20px;
+        color: #fffdfc;
+        display: block;
+        font-weight: 600;
+    }
+
+        .menu .navbar ul li a:hover {
+            color: #ce967b;
+        }
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.form-register {
+    width: 400px;
+    background-color: #24303c;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+    .form-register a {
+        position: relative;
+        text-align: center;
+    }
+
+.links {
+    font-size: 18px;
+    color: #fffdfc;
+    font-weight: 400;
+}
+
+    .links:hover {
+        color: #1f53c5;
+    }
+
+.form-register h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: white;
+}
+
+.form-register .botons {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.botons:hover {
+    background-color: #ce967b;
+    color: #24303c;
+}
+
+.footer {
+    bottom: 0;
+    padding: 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.link h3 {
+    font-size: 20px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    text-align: center;
+    font-size: 14px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+    .link a:hover {
+        color: white;
+    }
+
+@media (max-width: 991px) {
+    .menu {
+        padding: 30px;
+    }
+
+        .menu label {
+            display: initial;
+        }
+
+        .menu .navbar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #323337;
+            display: none;
+        }
+
+            .menu .navbar ul li {
+                width: 100%;
+            }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+        .header-content p {
+            padding: 0;
+        }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}

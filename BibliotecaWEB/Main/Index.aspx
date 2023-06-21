@@ -19,7 +19,7 @@
         <nav class="navbar">
           <ul>
             <li><a href="../Registro-Libros/Prestamos.aspx">Registro de libros</a></li>
-            <li><a href="#">Registro de usuarios</a></li>
+            <li><a href="../Registro-Usuarios/Index.aspx">Registro de usuarios</a></li>
             <li><a href="#">Prestamos</a></li>
           </ul>
         </nav>

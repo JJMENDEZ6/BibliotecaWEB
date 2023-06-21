@@ -72,15 +72,25 @@
     <Content Include="Consultar-Libros\images\students.jpg" />
     <Content Include="Consultar-Libros\Index.aspx" />
     <Content Include="Consultar-Libros\StyleCE.css" />
+    <Content Include="Consultar-Usuarios\image\menu.png" />
+    <Content Include="Consultar-Usuarios\image\students.jpg" />
+    <Content Include="Consultar-Usuarios\Index.aspx" />
+    <Content Include="Consultar-Usuarios\StyleCU.css" />
     <Content Include="Main\images\01-biblioteca.jpg" />
     <Content Include="Main\images\libros-icon32px.png" />
     <Content Include="Main\images\menu.png" />
     <Content Include="Main\Index.aspx" />
     <Content Include="Main\Styles.css" />
+    <Content Include="Prestamos\images\menu.png" />
+    <Content Include="Prestamos\images\students.jpg" />
     <Content Include="Registro-Libros\images\menu.png" />
     <Content Include="Registro-Libros\images\students.jpg" />
     <Content Include="Registro-Libros\Prestamos.aspx" />
     <Content Include="Registro-Libros\StyleRL.css" />
+    <Content Include="Registro-Usuarios\image\menu.png" />
+    <Content Include="Registro-Usuarios\image\students.jpg" />
+    <Content Include="Registro-Usuarios\Index.aspx" />
+    <Content Include="Registro-Usuarios\StyleRU.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +99,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Consultar-Libros\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultar-Usuarios\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultar-Usuarios\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main\Index.aspx.cs">
@@ -106,7 +123,15 @@
       <DependentUpon>Prestamos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro-Usuarios\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro-Usuarios\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Servidor\ConexionSQL.cs" />
+    <Compile Include="Servidor\EstadosLibros.cs" />
     <Compile Include="Servidor\EstadosLibrosSQL.cs" />
   </ItemGroup>
   <ItemGroup>

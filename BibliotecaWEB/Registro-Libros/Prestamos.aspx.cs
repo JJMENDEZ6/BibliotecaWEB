@@ -19,9 +19,9 @@ namespace BibliotecaWEB.Prestamos
         {
             EstadosLibrosSQL objCargarEstados = new EstadosLibrosSQL();
             objCargarEstados.FntConsultarEstados();
-            cbx_estados.DataSource = objCargarEstados.GetEstados();
-            cbx_estados.DataTextField = "Nombre";
-            cbx_estados.DataBind();
+            ddlLibros.DataSource = objCargarEstados.GetEstados();
+            ddlLibros.DataTextField = "Nombre";
+            ddlLibros.DataBind();
         }
     }
 }
