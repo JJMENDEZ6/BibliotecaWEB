@@ -4,7 +4,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Registro</title>
-    <link href="Styles.css"/ rel="stylesheet" type="text/css"/>
+    <link href="StyleRL.css"/ rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -17,8 +17,7 @@
         <nav class="navbar">
           <ul>
               <li><a href="../Main/Index.aspx">Inicio</a></li>
-            <li><a href="#">Consultar libros</a></li>
-            <li><a href="#">Editar Libros</a></li>
+            <li><a href="../Consultar-Libros/Index.aspx">Consultar-Editar libros</a></li>
           </ul>
         </nav>
             </div>

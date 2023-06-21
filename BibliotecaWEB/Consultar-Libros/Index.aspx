@@ -3,23 +3,36 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Consulta</title>
-    <link href="style.css"/ rel="stylesheet" type="text/css"/>
+    <title>Consulta-Editar</title>
+    <link href="StyleCE.css"/ rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form id="form1" runat="server">
+        <header class="header">
+            <div class="menu container">
+                <a class="logo">CONSULTAR-EDITAR LIBROS</a>
+                <label for="menu">
+          <img src="images/menu.png" class="menu-icon" alt="" />
+        </label>
+        <nav class="navbar">
+          <ul>
+              <li><a href="../Main/Index.aspx">Inicio</a></li>
+            <li><a href="../Registro-Libros/Prestamos.aspx">Registro de libros</a></li>
+          </ul>
+        </nav>
+            </div>
+        </header>
        <section class="form-register">
-            <h1>Consulta de libros</h1>
-           <asp:TextBox ID="txtISBN" runat="server" placeholder="84951" CssClass="controls" ></asp:TextBox>
+            <h1>CONSULTA-EDITAR LIBROS</h1>
+           <asp:TextBox ID="txtISBN" runat="server" placeholder="84951" CssClass="controls"></asp:TextBox>
             <asp:TextBox ID="txtNombre" runat="server" placeholder="El Retorno Del Rey" CssClass="controls" ></asp:TextBox>
-            <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls"></asp:TextBox>
-             <asp:TextBox ID="txtEditorial" runat="server" placeholder="Universal" CssClass="controls"></asp:TextBox>
-            <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls"></asp:TextBox>
+            <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls" ></asp:TextBox>
+             <asp:TextBox ID="txtEditorial" runat="server" placeholder="Universal" CssClass="controls" ></asp:TextBox>
+            <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls" ></asp:TextBox>
             <asp:DropDownList ID="cbx_estados" runat="server" CssClass="controls" ></asp:DropDownList>
-            <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls"></asp:TextBox>
-            <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" />
-            <a href="#" class="links">Registrar Libros</a>
-            <a href="#" class="links">Modificar Libros</a>
+            <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls" ></asp:TextBox>
+            <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" />
+            <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" />
         </section>
         <footer class="footer">
       <div class="footer-content container">

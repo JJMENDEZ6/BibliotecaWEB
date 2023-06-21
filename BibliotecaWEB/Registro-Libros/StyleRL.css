@@ -1,4 +1,5 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 body {
     font-family: "Poppins", sans-serif;
     background-image: url(images/students.jpg);
@@ -14,6 +16,7 @@ body {
     background-size: cover;
     min-height: 70vh;
 }
+
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-position: center bottom;
@@ -22,6 +25,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .menu {
     position: absolute;
     top: 0;
@@ -31,16 +35,19 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .logo {
     text-transform: uppercase;
     color: #fffdfc;
     font-size: 32px;
     font-weight: 800;
 }
+
 .menu .navbar ul li {
     position: relative;
     float: left;
 }
+
     .menu .navbar ul li a {
         text-transform: uppercase;
         font-size: 24px;
@@ -49,12 +56,15 @@ body {
         display: block;
         font-weight: 600;
     }
+
         .menu .navbar ul li a:hover {
             color: #ce967b;
         }
+
 #menu {
     display: none;
 }
+
 .menu-icon {
     width: 25px;
 }
@@ -63,9 +73,11 @@ body {
     cursor: pointer;
     display: none;
 }
+
 .header-content {
     text-align: center;
 }
+
 .form-register {
     width: 400px;
     background-color: #24303c;
@@ -78,24 +90,29 @@ body {
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
-.form-register a {
-    position: relative;
-    text-align: center;
-}
+
+    .form-register a {
+        position: relative;
+        text-align: center;
+    }
+
 .links {
     font-size: 18px;
     color: #fffdfc;
     font-weight: 400;
 }
-.links:hover{
-    color: #1f53c5;
-}
-    .form-register h1 {
-        text-align:center;
-        font-size: 22px;
-        margin-bottom: 20px;
-        padding: 5px;
+
+    .links:hover {
+        color: #1f53c5;
     }
+
+.form-register h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
 .controls {
     width: 100%;
     background: #24303c;
@@ -116,15 +133,16 @@ body {
     margin: 16px 0;
     font-size: 16px;
 }
+
 .botons:hover {
     background-color: #ce967b;
     color: #24303c;
 }
+
 .footer {
     bottom: 0;
-    padding: 25px 0;
+    padding: 100px 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-    /*background-color: #24303c;*/
 }
 
 .footer-content {
@@ -150,6 +168,7 @@ body {
     .link a:hover {
         color: white;
     }
+
 @media (max-width: 991px) {
     .menu {
         padding: 30px;
@@ -175,9 +194,11 @@ body {
     #menu:checked ~ .navbar {
         display: initial;
     }
+
     .header {
         min-height: 0vh;
     }
+
     .header-content {
         padding: 100px 30px;
     }
@@ -185,11 +206,13 @@ body {
         .header-content p {
             padding: 0;
         }
-  .footer {
-    padding: 30px;
-  }
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-  }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
 }

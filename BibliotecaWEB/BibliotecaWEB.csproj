@@ -68,11 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Consultar-Libros\images\01-biblioteca.jpg" />
+    <Content Include="Consultar-Libros\images\menu.png" />
+    <Content Include="Consultar-Libros\images\students.jpg" />
     <Content Include="Consultar-Libros\Index.aspx" />
-    <Content Include="Consultar-Libros\style.css" />
-    <Content Include="Editar-Libros\images\01-biblioteca.jpg" />
-    <Content Include="Editar-Libros\Index.aspx" />
-    <Content Include="Editar-Libros\style.css" />
+    <Content Include="Consultar-Libros\StyleCE.css" />
     <Content Include="Main\images\01-biblioteca.jpg" />
     <Content Include="Main\images\libros-icon32px.png" />
     <Content Include="Main\images\menu.png" />
@@ -81,7 +80,7 @@
     <Content Include="Registro-Libros\images\menu.png" />
     <Content Include="Registro-Libros\images\students.jpg" />
     <Content Include="Registro-Libros\Prestamos.aspx" />
-    <Content Include="Registro-Libros\Styles.css" />
+    <Content Include="Registro-Libros\StyleRL.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,13 +89,6 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Consultar-Libros\Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Editar-Libros\Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Editar-Libros\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main\Index.aspx.cs">
