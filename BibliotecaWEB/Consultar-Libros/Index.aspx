@@ -3,8 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Consulta-Editar</title>
-    <link href="StyleCE.css"/ rel="stylesheet" type="text/css"/>
+    <title>Consultar-Editar</title>
+    <link href="StylesConsultarLibros.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -23,7 +23,7 @@
             </div>
         </header>
        <section class="form-register">
-            <h1>CONSULTA-EDITAR LIBROS</h1>
+            <h1>CONSULTAR - EDITAR LIBROS</h1>
            <asp:TextBox ID="txtISBN" runat="server" placeholder="84951" CssClass="controls"></asp:TextBox>
             <asp:TextBox ID="txtNombre" runat="server" placeholder="El Retorno Del Rey" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls" ></asp:TextBox>

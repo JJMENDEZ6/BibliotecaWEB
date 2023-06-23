@@ -9,9 +9,9 @@ namespace BibliotecaWEB.Servidor
     {
         private string str_mensaje;
         ConexionSQL oConexionSQL;
-        public fntRegistrarLibros(string nombre,)
-        {
+        //public fntRegistrarLibros(string nombre,)
+        //{
 
-        }
+        //}
     }
 }

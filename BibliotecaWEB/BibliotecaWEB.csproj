@@ -67,11 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Consultar-Libros\images\01-biblioteca.jpg" />
     <Content Include="Consultar-Libros\images\menu.png" />
-    <Content Include="Consultar-Libros\images\students.jpg" />
+    <Content Include="Consultar-Libros\images\prestamos2.jpg" />
     <Content Include="Consultar-Libros\Index.aspx" />
     <Content Include="Consultar-Libros\StyleCE.css" />
+    <Content Include="Consultar-Libros\StylesConsultarLibros.css" />
     <Content Include="Consultar-Usuarios\image\menu.png" />
     <Content Include="Consultar-Usuarios\image\students.jpg" />
     <Content Include="Consultar-Usuarios\Index.aspx" />
@@ -87,10 +87,10 @@
     <Content Include="Registro-Libros\images\students.jpg" />
     <Content Include="Registro-Libros\Prestamos.aspx" />
     <Content Include="Registro-Libros\StyleRL.css" />
+    <Content Include="Registro-Usuarios\image\escritores.jpg" />
     <Content Include="Registro-Usuarios\image\menu.png" />
-    <Content Include="Registro-Usuarios\image\students.jpg" />
     <Content Include="Registro-Usuarios\Index.aspx" />
-    <Content Include="Registro-Usuarios\StyleRU.css" />
+    <Content Include="Registro-Usuarios\StyleUR.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
