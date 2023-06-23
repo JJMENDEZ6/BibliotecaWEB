@@ -13,15 +13,8 @@ namespace BibliotecaWEB.Prestamos
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            CargarEstados();
+            
         }
-        public void CargarEstados()
-        {
-            EstadosLibrosSQL objCargarEstados = new EstadosLibrosSQL();
-            objCargarEstados.FntConsultarEstados();
-            ddlLibros.DataSource = objCargarEstados.GetEstados();
-            ddlLibros.DataTextField = "Nombre";
-            ddlLibros.DataBind();
-        }
+        
     }
 }

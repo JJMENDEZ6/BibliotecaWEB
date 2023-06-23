@@ -60,15 +60,6 @@ namespace BibliotecaWEB.Prestamos
         protected global::System.Web.UI.WebControls.TextBox txtFechaPublicacion;
 
         /// <summary>
-        /// Control ddlLibros.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlLibros;
-
-        /// <summary>
         /// Control txtCantidadLibros.
         /// </summary>
         /// <remarks>
@@ -94,5 +85,14 @@ namespace BibliotecaWEB.Prestamos
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnRegistrar;
+
+        /// <summary>
+        /// Control lblMensaje.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMensaje;
     }
 }
