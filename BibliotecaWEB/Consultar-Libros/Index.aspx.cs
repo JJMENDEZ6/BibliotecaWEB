@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BibliotecaWEB.Servidor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,15 @@ namespace BibliotecaWEB.Consultar_Libros
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            CargarEstados();
+        }
+        public void CargarEstados()
+        {
+            EstadosLibros objCargarEstados = new EstadosLibros();
+            objCargarEstados.FntConsultarEstados();
+            ddlEstados.DataSource = objCargarEstados.GetEstados();
+            ddlEstados.DataTextField = "Nombre";
+            ddlEstados.DataBind();
         }
     }
 }

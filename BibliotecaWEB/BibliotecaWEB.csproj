@@ -133,6 +133,7 @@
     <Compile Include="Servidor\ConexionSQL.cs" />
     <Compile Include="Servidor\EstadosLibros.cs" />
     <Compile Include="Servidor\EstadosLibrosSQL.cs" />
+    <Compile Include="Servidor\RegistrarLibros.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

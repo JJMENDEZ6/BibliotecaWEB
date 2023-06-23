@@ -29,7 +29,7 @@
             <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls" ></asp:TextBox>
              <asp:TextBox ID="txtEditorial" runat="server" placeholder="Universal" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls" ></asp:TextBox>
-            <asp:DropDownList ID="cbx_estados" runat="server" CssClass="controls" ></asp:DropDownList>
+            <asp:DropDownList ID="ddlEstados" runat="server" CssClass="controls" ></asp:DropDownList>
             <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls" ></asp:TextBox>
             <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" />
             <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" />

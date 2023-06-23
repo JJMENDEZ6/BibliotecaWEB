@@ -11,7 +11,6 @@ namespace BibliotecaWEB.Servidor
     {
         private DataTable dtDateTable;
         ConexionSQL objconexionSQL = new ConexionSQL();
-
         public void FntConsultarEstados()
         {
             SqlDataAdapter da = new SqlDataAdapter("SP_ConsultarEstado2", objconexionSQL.Connection);

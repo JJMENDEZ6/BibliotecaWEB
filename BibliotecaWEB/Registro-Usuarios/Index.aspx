@@ -28,9 +28,9 @@
             <h1>REGISTRO DE USUARIOS</h1>
             <asp:TextBox ID="txtNombres" runat="server" placeholder="Maria Antonieta" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtApellidos" runat="server" placeholder="De Las Nieves" CssClass="controls"></asp:TextBox>
-             <asp:TextBox ID="txtContacto" runat="server" placeholder="Universal" CssClass="controls"></asp:TextBox>
-            <asp:TextBox ID="txtDireccion" runat="server" placeholder="02-10-1997" CssClass="controls"></asp:TextBox>
-            <asp:TextBox ID="txtCorreo" runat="server" placeholder="500" CssClass="controls"></asp:TextBox>
+             <asp:TextBox ID="txtContacto" runat="server" placeholder="3006566891" CssClass="controls"></asp:TextBox>
+            <asp:TextBox ID="txtDireccion" runat="server" placeholder="Malambo" CssClass="controls"></asp:TextBox>
+            <asp:TextBox ID="txtCorreo" runat="server" placeholder="Maria@gmail.com" CssClass="controls"></asp:TextBox>
             <asp:DropDownList ID="ddlEstado" runat="server" CssClass="controls" ></asp:DropDownList>
             <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" />
         </section>

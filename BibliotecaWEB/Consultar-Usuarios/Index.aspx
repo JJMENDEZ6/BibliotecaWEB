@@ -28,9 +28,9 @@
             <h1>CONSULTAR-EDITAR USUARIOS</h1>
             <asp:TextBox ID="txtNombres" runat="server" placeholder="Maria Antonieta" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtApellidos" runat="server" placeholder="De Las Nieves" CssClass="controls"></asp:TextBox>
-             <asp:TextBox ID="txtContacto" runat="server" placeholder="Universal" CssClass="controls"></asp:TextBox>
-            <asp:TextBox ID="txtDireccion" runat="server" placeholder="02-10-1997" CssClass="controls"></asp:TextBox>
-            <asp:TextBox ID="txtCorreo" runat="server" placeholder="500" CssClass="controls"></asp:TextBox>
+             <asp:TextBox ID="txtContacto" runat="server" placeholder="3006566894" CssClass="controls"></asp:TextBox>
+            <asp:TextBox ID="txtDireccion" runat="server" placeholder="Malambo" CssClass="controls"></asp:TextBox>
+            <asp:TextBox ID="txtCorreo" runat="server" placeholder="Maria@gmail.com" CssClass="controls"></asp:TextBox>
             <asp:DropDownList ID="ddlEstado" runat="server" CssClass="controls" ></asp:DropDownList>
             <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" />
             <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" />
