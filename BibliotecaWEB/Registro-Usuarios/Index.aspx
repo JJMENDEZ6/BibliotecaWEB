@@ -35,6 +35,8 @@
             <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" />
             <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" />
         </section>
+        <br />
+        <br />
         <footer class="footer">
       <div class="footer-content container">
         <div class="link">

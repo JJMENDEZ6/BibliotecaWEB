@@ -25,14 +25,21 @@
             </div>
         </header>
         <section class="form-register">
-            <h1>DATOS DEL USUARIO</h1>
+            <h1>REGISTRO DE PRESTAMOS</h1>
             <asp:TextBox ID="txtUsuarioID" runat="server" placeholder="Identificación del usuario" CssClass="controls" ></asp:TextBox>
-            <asp:TextBox ID="txtNombre" runat="server" placeholder="Nombre del usuario" CssClass="controls" Enabled="False" ></asp:TextBox>
+            <asp:TextBox ID="txtISBNUsuario" runat="server" placeholder="ISBN del libro" CssClass="controls"></asp:TextBox>
+            <asp:TextBox ID="txtCantidad" runat="server" placeholder="Cantidad" CssClass="controls"></asp:TextBox>
             <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" />
-            <asp:Button ID="btnBuscar" runat="server" Text="BUSCAR" CssClass="botons" />
-            <asp:Button ID="btnCrearPrestamo" runat="server" Text="CREAR PRESTAMO" CssClass="botons" />
-            <hr />
+            <asp:Button ID="btnCrearPrestamo" runat="server" Text="REGISTRAR PRESTAMO" CssClass="botons" />
         </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <footer class="footer">
       <div class="footer-content container">
         <div class="link">
