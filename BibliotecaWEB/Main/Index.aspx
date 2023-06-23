@@ -18,9 +18,9 @@
         </label>
         <nav class="navbar">
           <ul>
-            <li><a href="../Registro-Libros/Prestamos.aspx">Registro de libros</a></li>
-            <li><a href="../Registro-Usuarios/Index.aspx">Registro de usuarios</a></li>
-            <li><a href="#">Prestamos</a></li>
+            <li><a href="../Registro-Libros/Prestamos.aspx">REGISTRO DE LIBROS</a></li>
+            <li><a href="../Registro-Usuarios/Index.aspx">REGISTRO DE USUARIOS</a></li>
+            <li><a href="../Prestamos/Registrar-Prestamo/Prestamo.aspx">PRESTAMOS</a></li>
           </ul>
         </nav>
       </div>

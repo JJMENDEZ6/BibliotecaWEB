@@ -15,6 +15,10 @@ body {
     background-size: cover;
     min-height: 70vh;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-position: center bottom;
