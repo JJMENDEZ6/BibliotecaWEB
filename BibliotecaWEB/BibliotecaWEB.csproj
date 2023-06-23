@@ -80,6 +80,8 @@
     <Content Include="Main\images\menu.png" />
     <Content Include="Main\Index.aspx" />
     <Content Include="Main\Styles.css" />
+    <Content Include="Prestamos\Consultar-Prestamo\ConsultarPrestamo.aspx" />
+    <Content Include="Prestamos\Consultar-Prestamo\StyleCP.css" />
     <Content Include="Prestamos\images\books1.jpg" />
     <Content Include="Prestamos\images\escritores2.jpg" />
     <Content Include="Prestamos\images\menu.png" />
@@ -116,6 +118,13 @@
     </Compile>
     <Compile Include="Main\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prestamos\Consultar-Prestamo\ConsultarPrestamo.aspx.cs">
+      <DependentUpon>ConsultarPrestamo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prestamos\Consultar-Prestamo\ConsultarPrestamo.aspx.designer.cs">
+      <DependentUpon>ConsultarPrestamo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Prestamos\Registrar-Prestamo\Prestamo.aspx.cs">
       <DependentUpon>Prestamo.aspx</DependentUpon>

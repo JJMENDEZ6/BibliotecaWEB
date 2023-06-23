@@ -19,7 +19,7 @@
         <nav class="navbar">
           <ul>
               <li><a href="../../Main/Index.aspx">INICIO</a></li>
-            <li><a href="#">CONSULTAR PRESTAMOS</a></li>
+            <li><a href="../Consultar-Prestamo/ConsultarPrestamo.aspx">CONSULTAR PRESTAMOS</a></li>
           </ul>
         </nav>
             </div>
