@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Consultar-Editar</title>
-    <link href="StyleCU.css"/ rel="stylesheet" type="text/css"/>
+    <link href="StyleUQ.css"/ rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -32,6 +32,7 @@
             <asp:TextBox ID="txtDireccion" runat="server" placeholder="Malambo" CssClass="controls"></asp:TextBox>
             <asp:TextBox ID="txtCorreo" runat="server" placeholder="Maria@gmail.com" CssClass="controls"></asp:TextBox>
             <asp:DropDownList ID="ddlEstado" runat="server" CssClass="controls" ></asp:DropDownList>
+            <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" />
             <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" />
             <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" />
         </section>

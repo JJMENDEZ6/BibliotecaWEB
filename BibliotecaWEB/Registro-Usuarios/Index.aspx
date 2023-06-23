@@ -32,6 +32,7 @@
             <asp:TextBox ID="txtDireccion" runat="server" placeholder="Malambo" CssClass="controls"></asp:TextBox>
             <asp:TextBox ID="txtCorreo" runat="server" placeholder="Maria@gmail.com" CssClass="controls"></asp:TextBox>
             <asp:DropDownList ID="ddlEstado" runat="server" CssClass="controls" ></asp:DropDownList>
+            <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" />
             <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" />
         </section>
         <footer class="footer">

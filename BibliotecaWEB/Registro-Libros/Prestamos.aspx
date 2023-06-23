@@ -4,33 +4,34 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Registro</title>
-    <link href="StyleRL.css"/ rel="stylesheet" type="text/css"/>
+    <link href="StyleBR.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form id="form1" runat="server">
         <header class="header">
             <div class="menu container">
-                <a class="logo">REGISTRO DE LIBROS</a>
+                <a class="logo">Registro de libros</a>
                 <label for="menu">
           <img src="images/menu.png" class="menu-icon" alt="" />
         </label>
         <nav class="navbar">
           <ul>
               <li><a href="../Main/Index.aspx">Inicio</a></li>
-            <li><a href="../Consultar-Libros/Index.aspx">Consultar-Editar libros</a></li>
+            <li><a href="../Consultar-Libros/Index.aspx">Consultar - Editar libros</a></li>
           </ul>
         </nav>
             </div>
         </header>
         <section class="form-register">
-            <h1>REGISTRO DE LIBROS</h1>
+            <h1>Registro de libros</h1>
             <asp:TextBox ID="txtNombre" runat="server" placeholder="El Retorno Del Rey" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls"></asp:TextBox>
              <asp:TextBox ID="txtEditorial" runat="server" placeholder="Universal" CssClass="controls"></asp:TextBox>
             <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls"></asp:TextBox>
             <asp:DropDownList ID="ddlLibros" runat="server" CssClass="controls" ></asp:DropDownList>
             <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls"></asp:TextBox>
-            <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" />
+            <asp:Button ID="btnNuevo" runat="server" Text="Nuevo" CssClass="botons" />
+            <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" CssClass="botons" />
         </section>
         <footer class="footer">
       <div class="footer-content container">

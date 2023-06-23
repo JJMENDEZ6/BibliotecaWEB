@@ -31,6 +31,7 @@
             <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls" ></asp:TextBox>
             <asp:DropDownList ID="ddlEstados" runat="server" CssClass="controls" ></asp:DropDownList>
             <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls" ></asp:TextBox>
+           <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" />
             <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" />
             <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" />
         </section>

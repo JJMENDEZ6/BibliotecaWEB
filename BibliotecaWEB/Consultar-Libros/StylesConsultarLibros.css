@@ -76,7 +76,7 @@ body {
 }
 
 .form-register {
-    width: 400px;
+    width: 500px;
     background-color: #24303c;
     padding: 50px;
     position: relative;
@@ -122,17 +122,20 @@ body {
 }
 
 .form-register .botons {
-    width: 100%;
+    width: 29%;
     background-color: #1f53c5;
     border: none;
-    padding: 12px;
+    padding: 8px;
     color: white;
-    margin: 16px 0;
+    margin: 6px 0;
+    margin-left: 12px;
     font-size: 16px;
+    display: inline-block;
 }
 
 .botons:hover {
-    color: black;
+    background-color: azure;
+    color: #1f53c5;
 }
 
 .dropDownListForm {
