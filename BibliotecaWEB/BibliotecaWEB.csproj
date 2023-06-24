@@ -112,7 +112,7 @@
     <Compile Include="Consultar-Usuarios\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Logica\Logica-Libros\RegistrarLibros.cs" />
+    <Compile Include="Servidor\RegistrarLibros.cs" />
     <Compile Include="Main\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -150,8 +150,7 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Servidor\ConexionSQL.cs" />
-    <Compile Include="Logica\Logica-Libros\EstadosLibros.cs" />
-    <Compile Include="Logica\Logica-Libros\EstadosLibrosSQL.cs" />
+    <Compile Include="Servidor\EstadosLibrosSQL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

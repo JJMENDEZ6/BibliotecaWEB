@@ -16,7 +16,7 @@ namespace BibliotecaWEB.Consultar_Libros
         }
         public void CargarEstados()
         {
-            EstadosLibros objCargarEstados = new EstadosLibros();
+            EstadosLibrosSQL objCargarEstados = new EstadosLibrosSQL();
             objCargarEstados.FntConsultarEstados();
             ddlEstados.DataSource = objCargarEstados.GetEstados();
             ddlEstados.DataTextField = "Nombre";

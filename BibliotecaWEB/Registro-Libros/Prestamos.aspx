@@ -24,14 +24,20 @@
         </header>
         <section class="form-register">
             <h1>Registro de libros</h1>
+            <label>Isbn del libro</label>
+            <asp:TextBox ID="txtISBN" runat="server" placeholder="8415158" CssClass="controls" ></asp:TextBox>
             <label>Nombre del libro</label>
             <asp:TextBox ID="txtNombre" runat="server" placeholder="El Retorno Del Rey" CssClass="controls" ></asp:TextBox>
+            <label>Autor del libro</label>
             <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls"></asp:TextBox>
+            <label>Editorial del libro</label>
              <asp:TextBox ID="txtEditorial" runat="server" placeholder="Universal" CssClass="controls"></asp:TextBox>
+            <label>Fecha de publicación del libro</label>
             <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls" TextMode="Date"></asp:TextBox>
+            <label>Cantidad de ejemplares</label>
             <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls"></asp:TextBox>
-            <asp:Button ID="btnNuevo" runat="server" Text="Nuevo" CssClass="botons" />
-            <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" CssClass="botons" />
+            <asp:Button ID="btnNuevo" runat="server" Text="Nuevo" CssClass="botons" OnClick="btnNuevo_Click" />
+            <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" CssClass="botons" OnClick="btnRegistrar_Click" />
              <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label>
         </section>
         <br />

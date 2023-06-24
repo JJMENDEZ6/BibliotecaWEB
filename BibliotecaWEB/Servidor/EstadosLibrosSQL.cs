@@ -7,13 +7,14 @@ using System.Web;
 
 namespace BibliotecaWEB.Servidor
 {
-    public class EstadosLibros
+    public class EstadosLibrosSQL
     {
         private DataTable dtDateTable;
         ConexionSQL objconexionSQL = new ConexionSQL();
+
         public void FntConsultarEstados()
         {
-            SqlDataAdapter da = new SqlDataAdapter("SP_ConsultarEstado2", objconexionSQL.Connection);
+            SqlDataAdapter da = new SqlDataAdapter("SP_ConsultarEstado", objconexionSQL.Connection);
             dtDateTable = new DataTable();
             objconexionSQL.Connection.Open();
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
