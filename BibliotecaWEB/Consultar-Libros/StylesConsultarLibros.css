@@ -113,7 +113,10 @@ body {
     margin-bottom: 20px;
     padding: 5px;
 }
-
+.labels {
+    color: aqua;
+    text-transform: capitalize;
+}
 .controls {
     width: 100%;
     background: #24303c;

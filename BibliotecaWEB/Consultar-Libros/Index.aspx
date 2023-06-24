@@ -24,16 +24,25 @@
         </header>
        <section class="form-register">
             <h1>CONSULTAR - EDITAR LIBROS</h1>
+           <label>Ingrese el ISBN del libro</label>
            <asp:TextBox ID="txtISBN" runat="server" placeholder="84951" CssClass="controls"></asp:TextBox>
+           <label>Nombre del libro</label>
             <asp:TextBox ID="txtNombre" runat="server" placeholder="El Retorno Del Rey" CssClass="controls" ></asp:TextBox>
+           <label>Autor del libro</label>
             <asp:TextBox ID="txtAutor" runat="server" placeholder="J.R.R Tolkien" CssClass="controls" ></asp:TextBox>
+           <label>Editorial del libro</label>
              <asp:TextBox ID="txtEditorial" runat="server" placeholder="Universal" CssClass="controls" ></asp:TextBox>
-            <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls" ></asp:TextBox>
+           <label>Fecha de publicación</label>
+            <asp:TextBox ID="txtFechaPublicacion" runat="server" placeholder="02-10-1997" CssClass="controls" TextMode="DateTime" ></asp:TextBox>
+           <label>Estados</label>
             <asp:DropDownList ID="ddlEstados" runat="server" CssClass="controls" ></asp:DropDownList>
+           <label>Cantidad de ejemplares</label>
             <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls" ></asp:TextBox>
-           <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" />
-            <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" />
+           <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" OnClick="btnNuevo_Click" />
+            <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" OnClick="btnConsultar_Click" />
             <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" />
+           <br />
+           <asp:Label ID="lblMensaje" runat="server" Text="Label"></asp:Label>
         </section>
         <br />
         <br />
