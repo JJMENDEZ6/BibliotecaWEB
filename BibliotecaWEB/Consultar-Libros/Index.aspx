@@ -40,9 +40,9 @@
             <asp:TextBox ID="txtCantidadLibros" runat="server" placeholder="500" CssClass="controls" ></asp:TextBox>
            <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" OnClick="btnNuevo_Click" />
             <asp:Button ID="btnConsultar" runat="server" Text="CONSULTAR" CssClass="botons" OnClick="btnConsultar_Click" />
-            <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" />
+            <asp:Button ID="btnEditar" runat="server" Text="EDITAR" CssClass="botons" OnClick="btnEditar_Click" />
            <br />
-           <asp:Label ID="lblMensaje" runat="server" Text="Label"></asp:Label>
+           <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label>
         </section>
         <br />
         <br />
