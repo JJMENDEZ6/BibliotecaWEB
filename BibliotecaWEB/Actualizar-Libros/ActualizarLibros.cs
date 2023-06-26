@@ -20,27 +20,27 @@ namespace BibliotecaWEB.Actualizar_Libros
             }
             else
             {
-                //try
-                //{
-                oConexionSQL.Connection.Open();
-                SqlCommand oCommand = new SqlCommand("SP_ActualizarLibros", oConexionSQL.Connection);
-                oCommand.CommandType = CommandType.StoredProcedure;
-                oCommand.Parameters.AddWithValue("@isbn", isbn);
-                oCommand.Parameters.AddWithValue("@nombre", nombre);
-                oCommand.Parameters.AddWithValue("@autor", autor);
-                oCommand.Parameters.AddWithValue("@editorial", editorial);
-                oCommand.Parameters.AddWithValue("@fechaP", fechaP);
-                oCommand.Parameters.AddWithValue("@FKEstado", estado);
-                oCommand.Parameters.AddWithValue("@cantidad", cantidad);
-                //oConexionSQL.Connection.Open();
-                oCommand.ExecuteNonQuery();
-                oConexionSQL.Connection.Close();
-                strMensaje = $"Libro {nombre} actualizado con exito";
-                //}
-                //catch (Exception)
-                //{
-                //    strMensaje = "Error al actualizar el libro";
-                //}
+                try
+                {
+                    //oConexionSQL.Connection.Open();
+                    SqlCommand oCommand = new SqlCommand("SP_ActualizarLibros", oConexionSQL.Connection);
+                    oCommand.CommandType = CommandType.StoredProcedure;
+                    oCommand.Parameters.AddWithValue("@isbn", isbn);
+                    oCommand.Parameters.AddWithValue("@nombre", nombre);
+                    oCommand.Parameters.AddWithValue("@autor", autor);
+                    oCommand.Parameters.AddWithValue("@editorial", editorial);
+                    oCommand.Parameters.AddWithValue("@fechaP", fechaP);
+                    oCommand.Parameters.AddWithValue("@FKEstado", estado);
+                    oCommand.Parameters.AddWithValue("@cantidad", cantidad);
+                    oConexionSQL.Connection.Open();
+                    oCommand.ExecuteNonQuery();
+                    oConexionSQL.Connection.Close();
+                    strMensaje = $"Libro {nombre} actualizado con exito";
+                }
+                catch (Exception)
+                {
+                    strMensaje = "Error al actualizar el libro";
+                }
             }
         }
         public string GetMensaje() => strMensaje;

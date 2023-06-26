@@ -33,3 +33,29 @@ AS BEGIN
 	FROM [TBL_LIBROS]
 	WHERE [PK_ISBN] = @isbn
 END
+
+
+
+
+
+
+USE [BD_BIBLIOTECANACIONAL]
+GO
+-- =============================================
+-- Author:		<Author,JJMENDEZ>
+-- Create date: <Create Date,24-06-2023>
+-- Description:	<Description,CONSULTAR USUARIOS>
+-- =============================================
+CREATE PROCEDURE SP_Usuarios
+@id BIGINT
+AS BEGIN
+	SELECT
+	[TBL_USUARIOS].[NOMBRES],
+	[TBL_USUARIOS].[APELLIDOS],
+	[TBL_USUARIOS].[CONTACTO],
+	[TBL_USUARIOS].[DIRECCION],
+	[TBL_USUARIOS].[CORREO],
+	[TBL_USUARIOS].[FK_ESTADO]
+	FROM [TBL_USUARIOS]
+	WHERE [PK_ID] = @id
+END

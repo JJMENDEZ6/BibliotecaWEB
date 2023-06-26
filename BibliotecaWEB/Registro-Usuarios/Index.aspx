@@ -31,9 +31,10 @@
              <asp:TextBox ID="txtContacto" runat="server" placeholder="3006566891" CssClass="controls"></asp:TextBox>
             <asp:TextBox ID="txtDireccion" runat="server" placeholder="Malambo" CssClass="controls"></asp:TextBox>
             <asp:TextBox ID="txtCorreo" runat="server" placeholder="Maria@gmail.com" CssClass="controls"></asp:TextBox>
-            <asp:DropDownList ID="ddlEstado" runat="server" CssClass="controls" ></asp:DropDownList>
-            <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" />
-            <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" />
+            <%--<asp:DropDownList ID="ddlEstado" runat="server" CssClass="controls" ></asp:DropDownList>--%>
+            <asp:Button ID="btnNuevo" runat="server" Text="NUEVO" CssClass="botons" OnClick="btnNuevo_Click" />
+            <asp:Button ID="btnRegistrar" runat="server" Text="REGISTRAR" CssClass="botons" OnClick="btnRegistrar_Click" />
+            <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label>
         </section>
         <br />
         <br />

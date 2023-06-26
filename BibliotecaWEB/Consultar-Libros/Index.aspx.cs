@@ -13,7 +13,11 @@ namespace BibliotecaWEB.Consultar_Libros
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            CargarEstados();
+            if (!IsPostBack == true)
+            {
+                CargarEstados();
+            }
+            
         }
         public void CargarEstados()
         {
@@ -52,8 +56,8 @@ namespace BibliotecaWEB.Consultar_Libros
         private void fntActualizarLibro()
         {
             ActualizarLibros oActualizarLibro = new ActualizarLibros();
-            oActualizarLibro.fntActualizarLibros(txtISBN.Text,txtNombre.Text,txtAutor.Text,txtEditorial.Text,txtFechaPublicacion.Text,Convert.ToString(ddlEstados.SelectedIndex),Convert.ToInt16(txtCantidadLibros.Text));
-            lblMensaje.Text = oActualizarLibro.GetMensaje() ;
+            oActualizarLibro.fntActualizarLibros(txtISBN.Text,txtNombre.Text,txtAutor.Text,txtEditorial.Text,txtFechaPublicacion.Text,ddlEstados.SelectedValue,Convert.ToInt16(txtCantidadLibros.Text));
+            lblMensaje.Text = oActualizarLibro.GetMensaje();
         }
         #endregion
         #region Eventos click de los botones

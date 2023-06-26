@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BibliotecaWEB.Servidor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,19 @@ namespace BibliotecaWEB.Consultar_Usuarios
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack == true)
+            {
+                CargarEstados();
+            }
+        }
+        public void CargarEstados()
+        {
+            EstadosUsuariosSQL objCargarEstados = new EstadosUsuariosSQL();
+            objCargarEstados.FntConsultarEstados2();
+            ddlEstado.DataSource = objCargarEstados.GetEstados2();
+            ddlEstado.DataTextField = "Nombre";
+            ddlEstado.DataValueField = "PK_CODIGO";
+            ddlEstado.DataBind();
         }
     }
 }

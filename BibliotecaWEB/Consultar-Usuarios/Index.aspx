@@ -26,6 +26,7 @@
         </header>
         <section class="form-register">
             <h1>CONSULTAR-EDITAR USUARIOS</h1>
+            <asp:TextBox ID="txtID" runat="server" placeholder="1002236332" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtNombres" runat="server" placeholder="Maria Antonieta" CssClass="controls" ></asp:TextBox>
             <asp:TextBox ID="txtApellidos" runat="server" placeholder="De Las Nieves" CssClass="controls"></asp:TextBox>
              <asp:TextBox ID="txtContacto" runat="server" placeholder="3006566894" CssClass="controls"></asp:TextBox>

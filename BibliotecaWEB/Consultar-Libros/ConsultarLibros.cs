@@ -1,6 +1,7 @@
 ﻿using BibliotecaWEB.Servidor;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -9,7 +10,7 @@ namespace BibliotecaWEB.Consultar_Libros
 {
     public class ConsultarLibros
     {
-        string strNombre, strAutor, strEditorial, strFecha,strMensaje;
+         private string strNombre, strAutor, strEditorial, strFecha,strMensaje;
         int intCantidad,intEstados;
         SqlCommand oCommand;
         SqlDataReader oDataReader;
@@ -25,7 +26,7 @@ namespace BibliotecaWEB.Consultar_Libros
                 try
                 {
                     oCommand = new SqlCommand("SP_ConsultarLibros", oConexionSQL.Connection);
-                    oCommand.CommandType = System.Data.CommandType.StoredProcedure;
+                    oCommand.CommandType = CommandType.StoredProcedure;
                     oCommand.Parameters.AddWithValue("@isbn", isbn);
                     oConexionSQL.Connection.Open();
                     oDataReader = oCommand.ExecuteReader();

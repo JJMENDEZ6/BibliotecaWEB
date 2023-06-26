@@ -107,6 +107,7 @@
     <Compile Include="Consultar-Libros\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Consultar-Usuarios\ConsultarUsuario.cs" />
     <Compile Include="Consultar-Usuarios\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,6 +115,8 @@
     <Compile Include="Consultar-Usuarios\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Registro-Usuarios\RegistrarUsuarios.cs" />
+    <Compile Include="Servidor\EstadosUsuariosSQL.cs" />
     <Compile Include="Servidor\RegistrarLibros.cs" />
     <Compile Include="Main\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
